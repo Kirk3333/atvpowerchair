@@ -1,0 +1,12 @@
+# atvpowerchair.com — Patented Powerchair Swing Arm Suspension Landing Page
+# Publish the site root as-is (static HTML & CSS).
+
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
